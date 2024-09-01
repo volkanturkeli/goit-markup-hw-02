@@ -1,46 +1,85 @@
-
-
-.header{
-
-background-color: #E7E9FC;
-width: 1440px; height: 72px;
-dd
-d
+body {
+  font-family: "Roboto", system-ui;
+  background-color: #ffffff;
+  width: 1440px;
+  height: 2060px;
+  top: -1175px;
+  left: 405px;
 }
 
-.header a{
-
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-
-
-
+.header {
+  background-color: #e7e9fc;
+  width: 1440px;
+  height: 72px;
+  border: 1px;
 }
 
-.header li{
-
-
-
-
+.header li {
+  list-style-type: none;
 }
 
+.header-logo {
+  width: 115px;
+  height: 24px;
+  top: 24px;
+  left: 156px;
+  font-family: "Raleway", system-ui;
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  initial-letter: 3%;
+}
 
-body{  
-    background-color: #FFFF;
-    
-    }
-    
+.header-menu {
+  width: 48px;
+  height: 24px;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  initial-letter-align: 2%;
+}
 
+.header-adress {
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  initial-letter-align: 2%;
+}
 
 .order-services {
-
-
-
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+  top: 72px;
 }
 
+.order-services h1 {
+  width: 496px;
+  height: 120px;
+  top: 260px;
+  left: 472px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  initial-letter: 2%;
+  text-align: center;
+}
 
-
-    
-    
+.order-services button {
+  width: 169px;
+  height: 56px;
+  top: 428px;
+  left: 636px;
+  border-radius: 4px;
+  padding: 16px, 32px, 16px, 32px;
+  gap: 10px;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  initial-letter-align: 4%;
+}
