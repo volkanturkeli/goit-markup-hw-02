@@ -5,6 +5,8 @@ body {
 
 .header {
   background-color: #e7e9fc;
+  width: 1440px;
+  height: 72px;
 }
 
 .header li {
@@ -30,6 +32,7 @@ body {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 2%;
+  text-align: center;
 }
 
 .header-nav-menu a {
@@ -47,6 +50,7 @@ body {
   line-height: 1.5em;
   letter-spacing: 2%;
   cursor: pointer;
+  text-align: right;
 }
 .header-adress a:hover {
   color: #404bbf;
@@ -73,10 +77,14 @@ body {
 
 .main-section-one button {
   background-color: #4d5ae5;
+  color: #FFFFFF;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
   cursor: pointer;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
 
 .main-section-one button:hover {
@@ -103,25 +111,23 @@ body {
   letter-spacing: 2%;
 }
 
+.main-section-tree {
+  width: 1440px;
+  height: 732px;
+  background-color: #f4f4fd;
+}
+
 .main-section-ourteam {
   color: #2e2f42;
   font-weight: 700px;
   font-size: 36px;
   line-height: 2.5em;
   letter-spacing: 2%;
-  align-items: center;
+  text-align: center;
 }
 
 .main-section-tree li {
   list-style-type: none;
-}
-
-.main-section-ourteam {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 2.5em;
-  letter-spacing: 2%;
-  align-items: center;
 }
 
 .main-section-tree img {
@@ -141,6 +147,28 @@ body {
   line-height: 1.5em;
   letter-spacing: 2%;
   align-items: center;
+}
+
+.our-portfolio {
+  background-color: #e7e9fc;
+}
+
+.our-portfolio h2 {
+  font-size: 36px;
+  color: #2e2f42;
+  line-height: 2.5em;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+.our-portfolio li {
+  list-style-type: none;
+}
+
+.our-portfolio img {
+  width: 360px;
+  height: 300px;
+  cursor: pointer;
 }
 
 .page-footer {
