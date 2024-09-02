@@ -12,7 +12,7 @@ body {
 }
 
 .header-logo {
-  font-family: "Raleway", system-ui;
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   color: #2e2f42;
@@ -39,7 +39,7 @@ body {
 }
 
 .header-adress {
-  font-family: "Roboto", system-ui;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -145,7 +145,7 @@ body {
 .page-footer a {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Raleway", system-ui;
+  font-family: "Raleway", sans-serif;
   color: #ffffff;
   font-weight: 700;
   font-size: 18px;
