@@ -13,6 +13,8 @@ body {
 
 .header-logo {
   font-family: "Raleway", sans-serif;
+  cursor: pointer;
+
   text-decoration: none;
   text-transform: uppercase;
   color: #2e2f42;
@@ -44,6 +46,7 @@ body {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 2%;
+  cursor: pointer;
 }
 .header-adress a:hover {
   color: #404bbf;
@@ -122,8 +125,13 @@ body {
 }
 
 .main-section-tree img {
+  cursor: pointer;
   width: 264px;
   height: 260px;
+}
+
+.main-section-tree img:hover {
+  color: #404bbf;
 }
 
 .main-section-tree h2 {
@@ -143,6 +151,7 @@ body {
 }
 
 .page-footer a {
+  cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
