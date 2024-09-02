@@ -1,17 +1,10 @@
 body {
   font-family: "Roboto", system-ui;
   background-color: #ffffff;
-  width: 1440px;
-  height: 2060px;
-  top: -1175px;
-  left: 405px;
 }
 
 .header {
   background-color: #e7e9fc;
-  width: 1440px;
-  height: 72px;
-  border: 1px;
 }
 
 .header li {
@@ -19,26 +12,30 @@ body {
 }
 
 .header-logo {
-  width: 115px;
-  height: 24px;
-  top: 24px;
-  left: 156px;
   font-family: "Raleway", system-ui;
+  text-decoration: none;
+  text-transform: uppercase;
   color: #2e2f42;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  initial-letter: 3%;
+  letter-spacing: 3%;
 }
 
-.header-menu {
-  width: 48px;
-  height: 24px;
+.header-nav-menu {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  initial-letter-align: 2%;
+  letter-spacing: 2%;
+}
+
+.header-nav-menu a {
+  text-decoration: none;
+}
+
+.header-nav-menu a:hover {
+  color: #404bbf;
 }
 
 .header-adress {
@@ -46,40 +43,120 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  initial-letter-align: 2%;
+  letter-spacing: 2%;
+}
+.header-adress a:hover {
+  color: #404bbf;
 }
 
-.order-services {
+.header-adress a {
+  text-decoration: none;
+}
+
+.main-section-one {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
-  top: 72px;
 }
 
-.order-services h1 {
-  width: 496px;
-  height: 120px;
-  top: 260px;
-  left: 472px;
+.main-section-one h1 {
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
-  initial-letter: 2%;
+  letter-spacing: 2%;
   text-align: center;
 }
 
-.order-services button {
-  width: 169px;
-  height: 56px;
-  top: 428px;
-  left: 636px;
-  border-radius: 4px;
-  padding: 16px, 32px, 16px, 32px;
-  gap: 10px;
+.main-section-one button {
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  initial-letter-align: 4%;
+  cursor: pointer;
+}
+
+.main-section-one button:hover {
+  color: #404bbf;
+}
+
+.main-section-two li {
+  list-style-type: none;
+}
+
+.main-section-two h3 {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24;
+  letter-spacing: 2%;
+}
+
+.main-section-two p {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+.main-section-ourteam {
+  color: #2e2f42;
+  font-weight: 700px;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
+  align-items: center;
+}
+
+.main-section-tree li {
+  list-style-type: none;
+}
+
+.main-section-ourteam {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
+  align-items: center;
+}
+
+.main-section-tree img {
+  width: 264px;
+  height: 260px;
+}
+
+.main-section-tree h2 {
+  color: #2e2f42;
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  align-items: center;
+}
+
+.page-footer {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 312px;
+  top: 1748px;
+}
+
+.page-footer a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Raleway", system-ui;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+}
+
+.page-footer p {
+  color: #f4f4fd;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
 }
