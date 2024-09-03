@@ -14,12 +14,20 @@ body {
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
-  color: #2e2f42;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.3em;
   letter-spacing: 3%;
 }
+
+.web {
+  color: #4D5AE5;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3em;
+  letter-spacing: 3%;
+}
+
 
 .header-nav-menu {
   color: #2e2f42;
