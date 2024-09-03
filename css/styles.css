@@ -37,7 +37,6 @@ body {
 }
 
 .header-nav-menu {
-  color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
@@ -52,6 +51,7 @@ body {
 
 .header-nav-menu a {
   text-decoration: none;
+  color: #2e2f42;
 }
 
 .header-nav-menu a:hover {
@@ -70,6 +70,7 @@ body {
 
 .header-adress a {
   text-decoration: none;
+  color: #434455;
 }
 
 .header-adress a:hover {
@@ -223,7 +224,6 @@ body {
   line-height: 1.3em;
   letter-spacing: 3%;
 }
-
 
 .studio-footer {
   font-weight: 700px;
