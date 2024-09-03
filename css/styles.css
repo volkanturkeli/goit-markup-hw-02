@@ -2,21 +2,16 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
 }
-
+/* HEADER */
 .header {
   background-color: #e7e9fc;
   width: 1440px;
   height: 72px;
 }
 
-.header li {
-  list-style-type: none;
-}
-
 .header-logo {
   font-family: "Raleway", sans-serif;
   cursor: pointer;
-
   text-decoration: none;
   text-transform: uppercase;
   color: #2e2f42;
@@ -33,6 +28,11 @@ body {
   line-height: 1.5em;
   letter-spacing: 2%;
   text-align: center;
+}
+
+.header li {
+  list-style-type: none;
+  display: inline;
 }
 
 .header-nav-menu a {
@@ -52,13 +52,18 @@ body {
   cursor: pointer;
   text-align: right;
 }
-.header-adress a:hover {
-  color: #404bbf;
-}
 
 .header-adress a {
   text-decoration: none;
 }
+
+.header-adress a:hover {
+  color: #404bbf;
+}
+
+/* HEADER END */
+
+/* MAIN SECTION ONE */
 
 .main-section-one {
   background-color: #2e2f42;
@@ -77,7 +82,7 @@ body {
 
 .main-section-one button {
   background-color: #4d5ae5;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
@@ -88,8 +93,12 @@ body {
 }
 
 .main-section-one button:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
+
+/* MAIN SECTION ONE END */
+
+/* MAIN SECTION TWO  */
 
 .main-section-two li {
   list-style-type: none;
@@ -111,9 +120,11 @@ body {
   letter-spacing: 2%;
 }
 
+/* MAIN SECTION TWO END */
+
+/* MAIN SECTION TREE */
+
 .main-section-tree {
-  width: 1440px;
-  height: 732px;
   background-color: #f4f4fd;
 }
 
@@ -149,6 +160,10 @@ body {
   align-items: center;
 }
 
+/* MAIN SECTION TREE END */
+
+/* OUR PORTFOLIO */
+
 .our-portfolio {
   background-color: #e7e9fc;
 }
@@ -170,6 +185,10 @@ body {
   height: 300px;
   cursor: pointer;
 }
+
+/* OUR PORTFOLIO END */
+
+/* FOOTER */
 
 .page-footer {
   background-color: #2e2f42;
@@ -197,3 +216,5 @@ body {
   line-height: 1.5em;
   letter-spacing: 2%;
 }
+
+/* FOOTER END */
